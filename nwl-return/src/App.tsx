@@ -1,11 +1,9 @@
-import { useState } from 'react'
+import { Widget } from "./components/Widget";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>Hello Vite + React!</p>
-      </header>
+      <Widget />
     </div>
   )
 }
